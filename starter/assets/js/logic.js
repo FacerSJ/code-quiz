@@ -93,8 +93,8 @@ function startQuiz() {
 
   // add sound effect
 
-  soundCorrect = new sound ('sfx/correct.wav')
-  soundIncorrect = new sound ('sfx/incorrect.wav')
+  // soundCorrect = new sound ('sfx/correct.wav')
+  // soundIncorrect = new sound ('sfx/incorrect.wav')
 
 }
 
