@@ -10,4 +10,4 @@ This is a timed quiz on JavaScript fundamentals that stores high scores.
 ![image](https://user-images.githubusercontent.com/119257454/229169915-26b2282e-80ff-4978-a410-6f0a37b997ba.png)
 
 
-Deployed website: https://facersj.github.io/code-quiz/starter/
+Deployed webpage: https://facersj.github.io/code-quiz/starter/
