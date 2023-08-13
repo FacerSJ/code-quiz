@@ -7,6 +7,7 @@
 
 
 
+
 // Elements
 
 var timerEl = document.querySelector("#time");
@@ -23,19 +24,9 @@ var submitBtn = document.querySelector("#submit");
 
 var feedbackEl = document.querySelector("#feedback");
 
-// sound
+var correctSound = document.getElementById("soundCorrect")
 
-// var soundCorrect;
-// var soundIncorrect;
-
-// var soundCorrect = new Audio();
-// soundCorrect.src = "./sfx/correct.wav"
-// var soundIncorrect = new Audio();
-// soundIncorrect.src = "./sfx/incorrect.wav"
-
-// import soundCorrect from '../sfx/correct.wav';
-// import soundIncorrect from '../sfx/incorrect.wav';
-
+var incorrectSound = document.getElementById("soundIncorrect")
 
 
 
@@ -184,7 +175,7 @@ function answerClick() {
 
   if (this.value !== questions[currentQuestionIndex].answer) {
 
-    // soundIncorrect.play();
+    
 
     
 
@@ -201,13 +192,15 @@ function answerClick() {
     
 
     feedbackEl.textContent = "Wrong! :(";
+
+    incorrectSound.play();
     
 
   } else {
 
 
     feedbackEl.textContent = "Correct! :)";
-    // soundCorrect.play();
+    correctSound.play();
 
     
 
